@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffccdc; /* Light pink background */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Start from the top */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Full height for centering */
+}
+
+header {
+    background: rgba(255, 255, 255, 0.7); /* See-through white background */
+    color: #333; /* Black text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit max width */
+    margin-bottom: 20px; /* Space below header */
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+    background: white; /* White background for sections */
+    border-radius: 8px;
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit max width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    flex-grow: 1; /* Allow sections to grow and fill space */
+}
+
+h1, h2 {
+    color: #333; /* Black color for headings */
+}
+
+.box {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #333; /* Black border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ff6f91; /* Light pink for box background */
+    color: white; /* White text color */
+}
+
+.contact-info, .policy {
+    margin: 10px 0;
+}
+
+.appointment-form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 15px;
+    background: #333; /* Black button background */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555; /* Darker shade on hover */
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Braiding Stylist</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to CECE Hair Braiding</h1>
+    </header>
+
+    <section>
+        <h2>Services Offered</h2>
+        <ul>
+            <li>Box Braids</li>
+            <li>Twists</li>
+            <li>Cornrows</li>
+            <li>Micro Braids</li>
+            <li>And More!</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Pricing</h2>
+        <ul>
+            <li>Box Braids: $100</li>
+            <li>Twists: $80</li>
+            <li>Cornrows: $60</li>
+            <li>Micro Braids: $120</li>
+            <li>Consultation: Free</li>
+        </ul>
+    </section>
+
+    <section class="contact-info">
+        <div class="box">Contact</div>
+        <p>Address: [Client's Address]</p>
+        <p>Phone: [Client's Phone Number]</p>
+    </section>
+
+    <section class="policy">
+        <div class="box">Location</div>
+        <p>[Client's Location Details]</p>
+    </section>
+
+    <section class="policy">
+        <div class="box">Deposits</div>
+        <p>[Deposit Policy Details]</p>
+    </section>
+
+    <section class="policy">
+        <div class="box">Late Policy</div>
+        <p>[Late Policy Details]</p>
+    </section>
+
+    <section class="policy">
+        <div class="box">Final Payment</div>
+        <p>[Final Payment Policy Details]</p>
+    </section>
+
+    <section class="appointment-form">
+        <h2>Book an Appointment</h2>
+        <form action="[Your Form Handling URL]" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <select id="time" name="time">
+                <option value="7:30 AM">7:30 AM</option>
+                <option value="8:00 AM">8:00 AM</option>
+                <option value="8:30 AM">8:30 AM</option>
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="9:30 AM">9:30 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="10:30 AM">10:30 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="11:30 AM">11:30 AM</option>
+            </select>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="box-braids">Box Braids</option>
+                <option value="twists">Twists</option>
+                <option value="cornrows">Cornrows</option>
+                <option value="micro-braids">Micro Braids</option>
+            </select>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+</body>
+</html>
